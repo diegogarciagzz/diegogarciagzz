@@ -1,14 +1,18 @@
+<p align="center">
+  <img src="./BANNER%20(2).png" alt="Diego García González Banner" width="100%" />
+</p>
+
 <div align="center">
 
-# Hi, I'm Diego García González 👋
+### Software Engineer · Full-Stack Developer · iOS Developer · Computer Science Student
 
-### Computer Science Student · Software Engineer · Full-Stack & iOS Developer
+I build software at the intersection of **full-stack engineering, artificial intelligence, mobile development, and real-world impact**.
 
-Building software at the intersection of **AI, full-stack development, mobile applications, and real-world impact**.
+<br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://diegogarciagzz.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego%20García-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/diego-garcia-gzz/)
-[![GitHub](https://img.shields.io/badge/GitHub-diegogarciagzz-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/diegogarciagzz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/diego-garcia-gzz/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:Diego.Garcia.Gzz@outlook.com)
 
 </div>
 
@@ -16,26 +20,27 @@ Building software at the intersection of **AI, full-stack development, mobile ap
 
 ## 👨‍💻 About Me
 
-I'm a **Computer Science and Technology student at Tecnológico de Monterrey** with experience building full-stack applications, native iOS products, AI-powered systems, and data-driven solutions.
+I'm a **Computer Science and Technology student at Tecnológico de Monterrey** passionate about building software that solves meaningful problems.
 
-I enjoy turning real-world problems into software — from **AI financial assistants and offline education platforms to accessible chess applications and environmental monitoring systems**.
+My experience spans **full-stack web development, native iOS applications, artificial intelligence, machine learning, databases, APIs, and software architecture**.
 
-* 🎓 B.S. in Computer Science and Technology — Tecnológico de Monterrey
-* 💻 Interested in **Software Engineering, Full-Stack Development, AI & Mobile Development**
+I especially enjoy working on projects where engineering meets real-world challenges — from financial technology and accessibility to education, sustainability, and data-driven decision making.
+
+* 💻 Interested in **Software Engineering & Full-Stack Development**
 * 📱 Building native applications with **Swift & SwiftUI**
-* 🤖 Exploring practical applications of **AI, Machine Learning and LLMs**
-* 🌐 Experience developing complete products across frontend, backend, databases and APIs
-* ♟️ Competitive chess player and chess community leader
-* 🚀 Always interested in challenging projects, hackathons and international opportunities
+* 🤖 Exploring practical applications of **AI, Machine Learning & LLMs**
+* 🌐 Experience across **frontend, backend, databases and REST APIs**
+* 🧠 Strong foundation in **Object-Oriented Programming, Data Structures & Algorithms**
+* 🚀 Active participant in **hackathons, technical challenges and collaborative software projects**
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,java,swift,js,html,css,sql" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,java,swift,js,html,css" />
 </p>
 
 ### Frontend
@@ -50,7 +55,7 @@ I enjoy turning real-world problems into software — from **AI financial assist
   <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mysql,supabase" />
 </p>
 
-### Mobile & AI
+### AI, Data & Mobile
 
 <p>
   <img src="https://skillicons.dev/icons?i=swift,python,tensorflow" />
@@ -70,49 +75,239 @@ I enjoy turning real-world problems into software — from **AI financial assist
 
 **React · Node.js · Express · PostgreSQL · Gemini AI · Cypress · Jest**
 
-Full-stack financial education and management platform developed for a challenge with **Grupo Financiero Banorte**.
+A full-stack financial education and management platform developed as part of an industry challenge with **Grupo Financiero Banorte**.
 
-Aura combines traditional financial management tools with an intelligent advisor capable of helping users better understand their financial behavior.
+Aura combines traditional financial-management tools with an intelligent advisor designed to help users better understand their financial behavior and make more informed decisions.
 
-### Highlights
+### Key Features
 
-* AI-powered financial advisor with contextual recommendations
-* Transaction monitoring and categorization
-* Budget creation and tracking
-* Savings goals and investments
-* AI-enhanced monthly financial reports
-* Layered frontend → API → services → AI → data architecture
-* Automated frontend and backend testing
-* Cloud deployment
+* 🤖 Context-aware AI financial advisor
+* 💳 Transaction monitoring and filtering
+* 📊 Budget creation and progress tracking
+* 🎯 Savings goals
+* 📈 Investment monitoring
+* 📄 AI-enhanced monthly financial reports
+* ⚙️ User-configurable financial features
+* 🧪 Automated frontend and backend testing
+* ☁️ Cloud deployment
 
-🔗 **Repositories:**
-[Frontend](https://github.com/Vibantik/Reto-Front-Vibantik) · [Backend](https://github.com/Vibantik/Reto-Backend-Vibantik)
+### Architecture
+
+```text
+React Frontend
+      ↓
+REST API / BFF
+      ↓
+Business Services
+      ↓
+AI Services
+      ↓
+PostgreSQL
+```
+
+The system follows a layered architecture with separation between the user interface, API, business logic, AI services and persistent data.
+
+**Frontend:** React 19, Vite, Recharts, Cypress
+**Backend:** Node.js, Express, PostgreSQL, Zod
+**AI:** Gemini / provider-decoupled LLM architecture
+**Testing:** Cypress, Jest, Supertest
+
+<p>
+  <a href="https://github.com/Vibantik/Reto-Front-Vibantik">
+    <img src="https://img.shields.io/badge/Frontend-View%20Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/Vibantik/Reto-Backend-Vibantik">
+    <img src="https://img.shields.io/badge/Backend-View%20Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+## ☕ Machtia — Offline AI Education for Coffee Farmers
+
+**Swift · SwiftUI · SwiftData · Core ML · Supabase · MVVM**
+
+An iOS education platform designed to bring **soft-skills learning to coffee farmers across Mexico**, including communities with limited connectivity and users with different levels of technological experience.
+
+The project combined **native iOS development, offline-first architecture, machine learning, accessibility, and social impact**.
+
+### My Role
+
+**Scrum Master & iOS Developer**
+
+### Key Features
+
+* 📱 Native iOS learning experience
+* 📴 Offline-first functionality
+* 🧠 On-device machine learning
+* 💾 Local persistence with SwiftData
+* ☁️ Supabase-backed services
+* ♿ Accessibility-focused user experience
+* 🎓 Approachable educational experience
+* 🔄 Agile development through Scrum
+
+### Architecture & Engineering
+
+```text
+SwiftUI Interface
+      ↓
+MVVM Architecture
+      ↓
+Local Persistence
+   SwiftData
+      ↓
+Application Services
+      ↓
+Supabase / Core ML
+```
+
+Machtia was designed around an important engineering constraint: **providing intelligent and useful educational experiences even when internet connectivity is limited or unavailable**.
+
+---
+
+## ✈️ GateGenius — AI Airline Catering Optimization
+
+**React · Tailwind CSS · Vite · Zustand · Recharts · Gemini AI · Swift**
+
+Built during **HackMTY 2025**, GateGenius is an AI-driven platform exploring how predictive analytics and automation can reduce waste and improve airline catering operations.
+
+Developed during an intensive **36-hour hackathon**.
+
+### The Challenge
+
+Airline catering operations face significant inefficiencies caused by:
+
+* Food expiring before being served
+* Inaccurate provisioning
+* Limited consumption data
+* Manual workforce planning
+* Poor inventory allocation
+
+### Our Solution
+
+GateGenius combines four intelligent systems:
+
+#### 🥗 Expiry Tracker
+
+Monitors perishable inventory and identifies high-risk products.
+
+#### 🧠 AI Forecasting
+
+Predicts passenger consumption patterns based on flight and route characteristics.
+
+#### 👥 Shift Optimizer
+
+Helps plan workforce requirements according to predicted demand.
+
+#### ✈️ Smart Flight Match
+
+Prioritizes soon-to-expire products for flights where they are most likely to be consumed.
+
+We also developed a **native Swift iOS interface** for operational staff to scan products, inspect assignments and monitor inventory.
+
+### Modeled Prototype Impact
+
+* 📉 Up to **78% lower food waste**
+* 💰 Approximately **$93,600 modeled savings per facility/year**
+* 📦 Up to **45% lower over-provisioning losses**
+* ⚙️ Up to **30% higher operational efficiency**
+
+> These figures represent projected/model-based results from the prototype and not production deployment measurements.
+
+### Tech
+
+```text
+React
+Tailwind CSS
+Vite
+Zustand
+Recharts
+Gemini AI
+Swift
+```
 
 ---
 
 ## ♟️ MOVES — Accessible Voice-Controlled Chess
 
+### *Hear the Game. Master the Mind.*
+
 **Swift 6 · SwiftUI · Speech Recognition · AVFoundation · async/await**
 
-An accessibility-focused chess application designed for the **Swift Student Challenge**.
+An accessibility-focused chess application developed for the **Swift Student Challenge**, designed to explore how blind and visually impaired players can interact with chess through **voice rather than relying exclusively on visual board interaction**.
 
-MOVES explores how chess can become more accessible to blind and visually impaired players through voice-based interaction.
+### How It Works
 
-### Highlights
+```text
+Voice Input
+     ↓
+Speech Recognition
+     ↓
+Command Parser
+     ↓
+Chess Engine
+     ↓
+Move Validation
+     ↓
+Game State
+     ↓
+Audio / UI Feedback
+```
 
-* Voice chess commands such as `"e2 to e4"`
-* Speech recognition and command parsing
-* Complete chess game logic
-* Move validation
-* Opponent chess engine
-* Difficulty levels
-* Audio feedback
-* Modern Swift concurrency
-* Accessibility-first interaction design
+Players can give spoken chess commands such as:
 
-> **Hear the Game. Master the Mind.**
+```text
+"e2 to e4"
+```
 
-🔗 [View Repository](https://github.com/diegogarciagzz/MovesOficial)
+MOVES recognizes the command, extracts the chess coordinates, validates the move and updates the game.
+
+### Key Features
+
+* 🎤 Voice-controlled chess moves
+* 🗣️ Apple Speech Recognition
+* ♟️ Chess game logic and move validation
+* 🤖 Opponent chess engine
+* 🎚️ Difficulty selection
+* 🔊 Audio feedback
+* 🎙️ Microphone and speech permission management
+* ⚡ Modern Swift concurrency with `async/await`
+* 📱 iPhone and iPad support
+* ♿ Accessibility-first interaction design
+
+### Engineering
+
+The voice pipeline uses modern Swift architecture including:
+
+* Swift Observation
+* `@Observable`
+* `async/await`
+* AVFoundation
+* Speech Recognition
+* Dedicated chess game logic
+* Separate opponent-engine logic
+
+<p>
+  <a href="https://github.com/diegogarciagzz/MovesOficial">
+    <img src="https://img.shields.io/badge/View%20MOVES-GitHub-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+# 💻 More Projects
+
+## 🌱 Mawi / VitaNova — Environmental Management Platform
+
+**JavaScript · Node.js · Express · MySQL · JWT · REST APIs**
+
+Full-stack environmental management platform with modules for authentication, users, role-based administration, fauna records, biomonitoring, reports, environmental opportunities, project proposals and evidence management.
+
+<p>
+  <a href="https://github.com/diegogarciagzz/VITANOVAJUNIO">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=flat-square&logo=github" />
+  </a>
+</p>
 
 ---
 
@@ -120,64 +315,60 @@ MOVES explores how chess can become more accessible to blind and visually impair
 
 **Python · Pandas · SQL · R · TensorFlow · Scikit-learn**
 
-Data-driven solution developed during a **24-hour Datathon** focused on optimizing debt collection strategies.
+Data-driven solution developed during a **24-hour Datathon** focused on improving credit portfolio recovery strategies.
 
 ### Highlights
 
 * Analyzed **15M+ financial records**
-* Multi-table data processing and cleaning
-* Client-level feature engineering
-* Credit portfolio segmentation
-* Collection strategy recommendation
-* Machine learning classification
-* Neural network experimentation with TensorFlow/Keras
+* Multi-table financial data processing
+* Data cleaning and feature engineering
+* Client segmentation
+* Collection-strategy classification
+* Machine-learning experimentation
+* Neural-network model using TensorFlow/Keras
 
-### Pipeline
+```text
+Raw Data
+   ↓
+Cleaning
+   ↓
+Feature Engineering
+   ↓
+Segmentation
+   ↓
+Machine Learning
+   ↓
+Collection Strategy
+```
 
-`Raw Data → Cleaning → Feature Engineering → Segmentation → ML Model → Collection Strategy`
-
-🔗 [View Repository](https://github.com/diegogarciagzz/Datathon2025)
-
----
-
-## 🌱 Mawi / VitaNova — Environmental Management Platform
-
-**JavaScript · Node.js · Express · MySQL · JWT · REST APIs**
-
-Full-stack platform developed around environmental monitoring and management workflows.
-
-### Highlights
-
-* Authentication and role-based access
-* Environmental and fauna records
-* Biomonitoring workflows
-* Reports and evidence management
-* Project proposal management
-* REST APIs
-* JWT authentication
-* MySQL persistence
-* Full-stack implementation
-
-🔗 [View Repository](https://github.com/diegogarciagzz/VITANOVAJUNIO)
+<p>
+  <a href="https://github.com/diegogarciagzz/Datathon2025">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=flat-square&logo=github" />
+  </a>
+</p>
 
 ---
 
 ## ✅ HackBITS — Habit Tracker | HackMTY 2024
 
-**Oracle APEX · SQL · HTML · CSS**
+**Oracle APEX · SQL · HTML5 · CSS3**
 
 Habit-tracking application built for the **Oracle Challenge at HackMTY 2024**.
 
-### Highlights
+Features include:
 
-* Habit CRUD operations
+* Habit creation and management
 * Daily progress tracking
-* Weekly, monthly and yearly calendars
+* Weekly, monthly and annual calendar views
 * Interactive analytics
-* Progress charts
+* Progress visualization
 * Relational database integration
 
-🔗 [View Repository](https://github.com/diegogarciagzz/HackBits)
+<p>
+  <a href="https://github.com/diegogarciagzz/HackBits">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=flat-square&logo=github" />
+  </a>
+</p>
 
 ---
 
@@ -185,115 +376,80 @@ Habit-tracking application built for the **Oracle Challenge at HackMTY 2024**.
 
 **C++ · Object-Oriented Programming**
 
-Streaming platform simulator developed as an Object-Oriented Programming project.
+Object-Oriented Programming project modeling a streaming service through dedicated classes for:
 
-### Concepts Implemented
+```text
+Video
+├── Movie
+└── Series
+    └── Episode
+```
 
+Implemented concepts include:
+
+* Encapsulation
 * Inheritance
 * Polymorphism
-* Encapsulation
 * Class hierarchies
-* CSV file processing
-* Reusable software abstractions
+* Reusable abstractions
+* CSV data processing
 
-The system models movies, series, episodes and generic video content using dedicated C++ classes.
-
-🔗 [View Repository](https://github.com/diegogarciagzz/ServiciodeStreaming)
-
----
-
-# 💡 Other Projects
-
-### ☕ Machtia — Offline AI Education for Coffee Farmers
-
-Native iOS education platform designed to bring soft-skills training to coffee farmers across Mexico.
-
-**SwiftUI · SwiftData · Core ML · Supabase · MVVM**
-
-* Offline-first architecture
-* AI-assisted learning
-* Accessibility-focused UX
-* Local data persistence
-* On-device machine learning
-* Scrum-based development
+<p>
+  <a href="https://github.com/diegogarciagzz/ServiciodeStreaming">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=flat-square&logo=github" />
+  </a>
+</p>
 
 ---
 
-### ✈️ GateGenius — AI Airline Catering Optimization
-
-AI-powered platform created during **HackMTY 2025** to explore smarter airline catering operations.
-
-**React · Tailwind CSS · Vite · Zustand · Recharts · Gemini AI · Swift**
-
-* Demand forecasting
-* Expiry tracking
-* Workforce optimization
-* Smart inventory-to-flight matching
-* Native iOS operational interface
-* Built during a 36-hour hackathon
-
----
-
-# 🧠 Areas of Interest
+# 🧩 What I Enjoy Building
 
 ```text
 Software Engineering
-├── Full-Stack Development
-├── Backend Engineering
-├── Mobile / iOS Development
-├── Artificial Intelligence
-├── Machine Learning
-├── Data Engineering
-├── Software Architecture
-└── Accessible Technology
+│
+├── 🌐 Full-Stack Applications
+├── ⚙️ Backend Systems & APIs
+├── 📱 Native iOS Applications
+├── 🤖 AI-Powered Products
+├── 🧠 Machine Learning
+├── 📊 Data-Driven Systems
+├── ♿ Accessible Technology
+└── 🏗️ Software Architecture
 ```
-
----
-
-# 📈 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=diegogarciagzz&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegogarciagzz&layout=compact&hide_border=true&langs_count=8" />
-
-</div>
 
 ---
 
 # 🤝 Leadership & Community
 
-Beyond software development, I enjoy building and leading technical communities.
+Technology is only part of what I enjoy building.
 
-* 💻 Student leadership in Computer Science
-* ♟️ Leadership in university chess organizations
-* 🎓 Peer mentoring for university students
-* 🚀 Participation in hackathons, technical challenges and innovation projects
-* 🌎 Experience collaborating in multidisciplinary and international environments
+I have also been involved in:
+
+* 💻 Computer Science student leadership
+* ♟️ University chess organizations
+* 🎓 Peer mentoring
+* 🚀 Hackathons and innovation challenges
+* 🤝 Multidisciplinary software teams
+* 🌎 International and collaborative environments
 
 ---
 
 # 📫 Let's Connect
 
-I'm always interested in meeting developers, working on challenging projects and exploring opportunities in **Software Engineering, Full-Stack Development, AI and iOS Development**.
+I'm always interested in discussing **Software Engineering, Full-Stack Development, AI, iOS, interesting projects, internships and technology in general**.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-diegogarciagzz.vercel.app-black?style=for-the-badge\&logo=vercel)](https://diegogarciagzz.vercel.app)
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/diego-garcia-gzz/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-diegogarciagzz.vercel.app-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://diegogarciagzz.vercel.app)
 
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:Diego.Garcia.Gzz@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego%20García%20González-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/diego-garcia-gzz/)
 
-</div>
+[![Email](https://img.shields.io/badge/Email-Diego.Garcia.Gzz%40outlook.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:Diego.Garcia.Gzz@outlook.com)
 
----
-
-<div align="center">
+<br>
 
 ### Building technology that solves real problems.
-
-⭐ Thanks for visiting my profile!
 
 </div>
