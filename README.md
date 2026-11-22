@@ -24,12 +24,12 @@ I'm a **Computer Science and Technology student at Tecnológico de Monterrey** p
 
 My experience spans **full-stack web development, native iOS applications, artificial intelligence, machine learning, databases, APIs, and software architecture**.
 
-I especially enjoy working on projects where engineering meets real-world challenges — from financial technology and accessibility to education, sustainability, and data-driven decision making.
+I especially enjoy working on projects where engineering meets real-world challenges: from financial technology and accessibility to education, sustainability, sports and data-driven decision making.
 
 * 💻 Interested in **Software Engineering & Full-Stack Development**
 * 📱 Building native applications with **Swift & SwiftUI**
-* 🤖 Exploring practical applications of **AI, Machine Learning & LLMs**
-* 🌐 Experience across **frontend, backend, databases and REST APIs**
+* 🤖 Exploring practical applications of **AI, Machine Learning, LLMs & agentic systems**
+* 🌐 Experience across **frontend, backend, databases, REST APIs and cloud deployment**
 * 🧠 Strong foundation in **Object-Oriented Programming, Data Structures & Algorithms**
 * 🚀 Active participant in **hackathons, technical challenges and collaborative software projects**
 
@@ -40,38 +40,84 @@ I especially enjoy working on projects where engineering meets real-world challe
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,java,swift,js,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,java,swift,html,css" />
 </p>
 
 ### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vite,html,css,js" />
+  <img src="https://skillicons.dev/icons?i=react,vite,ts,html,css,js" />
 </p>
 
 ### Backend & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mysql,supabase" />
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mysql,supabase" />
 </p>
 
 ### AI, Data & Mobile
 
 <p>
-  <img src="https://skillicons.dev/icons?i=swift,python,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,swift" />
 </p>
 
-### Tools
+### Cloud & Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman" />
+  <img src="https://skillicons.dev/icons?i=azure,aws,docker,githubactions,git,github,vscode,figma,postman" />
 </p>
 
 ---
 
 # 🚀 Featured Projects
 
-## 🏦 Aura — AI-Powered Financial Advisor for Banorte
+## ⚽ PULSE AI – Fact-Checked Football Broadcast Intelligence
+
+**Python · FastAPI · React · TypeScript · Microsoft Foundry · Microsoft Agent Framework · Azure Container Apps · GitHub Actions**
+
+Built solo for the **Microsoft x Premier League "Inside the Game" Developer Hackathon 2026**.
+
+AI commentary can sound confident while getting the numbers wrong, and a broadcaster cannot put a sentence on air without knowing it is true. PULSE AI takes a synthetic football event stream and turns it into **broadcast-ready, fact-checked stories**: every AI sentence is verified against the data before it reaches the screen.
+
+### Key Features
+
+* 📈 **Match Pulse**, a momentum index computed from every pass, shot and recovery, with detectors for swings, pressure spells, surges and defensive stands
+* 🛡️ **Narrative VAR**: claim extraction and in-code verification of every LLM sentence (VERIFIED, CORRECTED with a rewrite, UNSUPPORTED, CONFLICTED, UNVERIFIED) with an audit trail
+* 🎙️ **Three-agent pundit studio**: the Analyst, the Fan and the Tactician argue Player of the Match in two bounded rounds; a moderator gives an evidence-based verdict
+* 📺 **Broadcast view** with live overlays, a pitch telestrator and an auto director; a director desk can fact-check a typed commentary line on air
+* 🌎 Recaps in Fan or Analyst mode, in English or Spanish
+* 🧪 60 backend tests, a 69-case verification evaluation set and Playwright end-to-end tests
+* ☁️ Deployed to Azure Container Apps during the hackathon with managed identity, rate limits and a daily model-call budget
+
+### Architecture
+
+```text
+Seeded Match Simulator (1,400 events per match)
+      ↓
+Analytics: statistics, Match Pulse, moment detectors
+      ↓
+Microsoft Foundry (gpt-5-mini) writes insights from an evidence pack
+      ↓
+Narrative VAR verifies every claim in code
+      ↓
+Broadcast overlays · Agent Framework pundit debate · Recaps
+```
+
+**Backend:** Python, FastAPI, azure-ai-projects, Microsoft Agent Framework
+**Frontend:** React 19, Vite, TypeScript, original brand system and broadcast overlays
+**Cloud:** Azure Container Apps, managed identity, GitHub Actions, GitHub Container Registry
+
+> All clubs, players, pundits and match data are fictional and synthetic.
+
+<p>
+  <a href="https://github.com/diegogarciagzz/PulseAI">
+    <img src="https://img.shields.io/badge/View%20PULSE%20AI-GitHub-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+## 🏦 Aura – AI-Powered Financial Advisor for Banorte
 
 **React · Node.js · Express · PostgreSQL · Gemini AI · Cypress · Jest**
 
@@ -123,7 +169,7 @@ The system follows a layered architecture with separation between the user inter
 
 ---
 
-## ☕ Machtia — Offline AI Education for Coffee Farmers
+## ☕ Machtia – Offline AI Education for Coffee Farmers
 
 **Swift · SwiftUI · SwiftData · Core ML · Supabase · MVVM**
 
@@ -165,7 +211,7 @@ Machtia was designed around an important engineering constraint: **providing int
 
 ---
 
-## ✈️ GateGenius — AI Airline Catering Optimization
+## ✈️ GateGenius – AI Airline Catering Optimization
 
 **React · Tailwind CSS · Vite · Zustand · Recharts · Gemini AI · Swift**
 
@@ -228,7 +274,7 @@ Swift
 
 ---
 
-## ♟️ MOVES — Accessible Voice-Controlled Chess
+## ♟️ MOVES – Accessible Voice-Controlled Chess
 
 ### *Hear the Game. Master the Mind.*
 
@@ -297,7 +343,7 @@ The voice pipeline uses modern Swift architecture including:
 
 # 💻 More Projects
 
-## 🌱 Mawi / VitaNova — Environmental Management Platform
+## 🌱 Mawi / VitaNova – Environmental Management Platform
 
 **JavaScript · Node.js · Express · MySQL · JWT · REST APIs**
 
@@ -349,7 +395,7 @@ Collection Strategy
 
 ---
 
-## ✅ HackBITS — Habit Tracker | HackMTY 2024
+## ✅ HackBITS – Habit Tracker | HackMTY 2024
 
 **Oracle APEX · SQL · HTML5 · CSS3**
 
@@ -410,7 +456,7 @@ Software Engineering
 ├── 🌐 Full-Stack Applications
 ├── ⚙️ Backend Systems & APIs
 ├── 📱 Native iOS Applications
-├── 🤖 AI-Powered Products
+├── 🤖 AI-Powered Products & Agentic Systems
 ├── 🧠 Machine Learning
 ├── 📊 Data-Driven Systems
 ├── ♿ Accessible Technology
@@ -425,7 +471,7 @@ Technology is only part of what I enjoy building.
 
 I have also been involved in:
 
-* 💻 Computer Science student leadership
+* 💻 Computer Science student leadership (President, SEITC, recognized as Outstanding Student Society)
 * ♟️ University chess organizations
 * 🎓 Peer mentoring
 * 🚀 Hackathons and innovation challenges
